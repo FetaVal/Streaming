@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #142bad;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #e6e6e6;
+  }
+  
+  main {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  main p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  main .button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  main .button:hover {
+    background-color: #555;
+  }
